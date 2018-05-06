@@ -5,7 +5,7 @@ public class Lokasi {
     private double y_coord;
     private String deskripsiLokasi;
 
-    public Lokasi(float x_coord,float y_coord, String deskripsiLokasi) {
+    public Lokasi(double x_coord,double y_coord, String deskripsiLokasi) {
         this.x_coord = x_coord;
         this.y_coord = y_coord;
         this.deskripsiLokasi = deskripsiLokasi;

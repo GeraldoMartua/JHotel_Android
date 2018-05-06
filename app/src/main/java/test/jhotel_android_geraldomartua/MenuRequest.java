@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MenuRequest extends StringRequest {
-    private static final String Regis_URL = "http://192.168.1.101:8080/logincust";
+    private static final String Regis_URL = "http://192.168.0.104:8080/logincust";
     private Map<String, String> params;
 
     public MenuRequest(Response.Listener<String> listener) {
